@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+
+<robot name="handoverBottle">
+  
+  <planar_surface name="handoverPipeBottom" link="base_link">
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <points>
+      <point xy="-5 -5" />
+      <point xy="5 -5" />
+      <point xy="5 5" />
+      <point xy="-5 5" />
+    </points>
+    <material name="plastic" />
+  </planar_surface>
+
+  <cylindrical_surface name="handoverBottle" link="base_link" radius="0.04" width="0.2">
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <material name="plastic" />
+  </cylindrical_surface>
+
+</robot>

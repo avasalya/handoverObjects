@@ -1,0 +1,1007 @@
+Panels:
+  - Class: rviz/Displays
+    Help Height: 78
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /Status1
+        - /Env1
+        - /Robot1
+        - /MarkerArray4
+        - /MarkerArray4/Namespaces1
+        - /TF1
+        - /TF1/Frames1
+      Splitter Ratio: 0.818443775
+    Tree Height: 214
+  - Class: rviz/Selection
+    Name: Selection
+  - Class: rviz/Tool Properties
+    Expanded:
+      - /2D Pose Estimate1
+      - /2D Nav Goal1
+      - /Publish Point1
+    Name: Tool Properties
+    Splitter Ratio: 0.588679016
+  - Class: rviz/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+  - Class: rviz/Time
+    Experimental: false
+    Name: Time
+    SyncMode: 0
+    SyncSource: ""
+  - Class: mc_rtc_rviz_panel/mc_rtc panel
+    Name: mc_rtc panel
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Name: Env
+      Robot Description: /control/env_1/robot_description
+      TF Prefix: /control/env_1
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 0.5
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        Accelerometer:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        All Links Enabled: true
+        BODY:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        CHEST_LINK0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        CHEST_LINK1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        HEAD_LINK0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        HEAD_LINK1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LARM_LINK0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LARM_LINK1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LARM_LINK2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LARM_LINK3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LARM_LINK4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LARM_LINK5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LARM_LINK6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LARM_LINK7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LHAND_LINK0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LHAND_LINK1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LHAND_LINK2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LHAND_LINK3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LHAND_LINK4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LLEG_LINK0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LLEG_LINK1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LLEG_LINK2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LLEG_LINK3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LLEG_LINK4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LLEG_LINK5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LeftFootForceSensor:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandForceSensor:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Link Tree Style: Links in Alphabetic Order
+        RARM_LINK0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RARM_LINK1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RARM_LINK2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RARM_LINK3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RARM_LINK4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RARM_LINK5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RARM_LINK6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RARM_LINK7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RHAND_LINK0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RHAND_LINK1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RHAND_LINK2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RHAND_LINK3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RHAND_LINK4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RLEG_LINK0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RLEG_LINK1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RLEG_LINK2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RLEG_LINK3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RLEG_LINK4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RLEG_LINK5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RightFootForceSensor:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandForceSensor:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        l_gripper:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        r_gripper:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        xtion_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+      Name: Robot
+      Robot Description: /control/robot_description
+      TF Prefix: /control
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /control/surfaces
+      Name: MarkerArray
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /control/env_1/surfaces
+      Name: MarkerArray
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /control/sch_marker
+      Name: MarkerArray
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /control/env_1/sch_marker
+      Name: MarkerArray
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /control/contact_force
+      Name: MarkerArray
+      Namespaces:
+        control/contact_force: true
+      Queue Size: 100
+      Value: true
+    - Class: rviz/InteractiveMarkers
+      Enable Transparency: true
+      Enabled: true
+      Name: InteractiveMarkers
+      Show Axes: false
+      Show Descriptions: true
+      Show Visual Aids: false
+      Update Topic: /mc_rtc_rviz_interactive_markers/update
+      Value: true
+    - Class: rviz/TF
+      Enabled: true
+      Frame Timeout: 15
+      Frames:
+        All Enabled: false
+        control/Accelerometer:
+          Value: false
+        control/BODY:
+          Value: false
+        control/CHEST_LINK0:
+          Value: false
+        control/CHEST_LINK1:
+          Value: false
+        control/HEAD_LINK0:
+          Value: false
+        control/HEAD_LINK1:
+          Value: false
+        control/LARM_LINK0:
+          Value: false
+        control/LARM_LINK1:
+          Value: false
+        control/LARM_LINK2:
+          Value: false
+        control/LARM_LINK3:
+          Value: false
+        control/LARM_LINK4:
+          Value: false
+        control/LARM_LINK5:
+          Value: false
+        control/LARM_LINK6:
+          Value: false
+        control/LARM_LINK7:
+          Value: true
+        control/LHAND_LINK0:
+          Value: false
+        control/LHAND_LINK1:
+          Value: false
+        control/LHAND_LINK2:
+          Value: false
+        control/LHAND_LINK3:
+          Value: false
+        control/LHAND_LINK4:
+          Value: false
+        control/LLEG_LINK0:
+          Value: false
+        control/LLEG_LINK1:
+          Value: false
+        control/LLEG_LINK2:
+          Value: false
+        control/LLEG_LINK3:
+          Value: false
+        control/LLEG_LINK4:
+          Value: false
+        control/LLEG_LINK5:
+          Value: false
+        control/LeftFootForceSensor:
+          Value: false
+        control/LeftHandForceSensor:
+          Value: false
+        control/RARM_LINK0:
+          Value: false
+        control/RARM_LINK1:
+          Value: false
+        control/RARM_LINK2:
+          Value: false
+        control/RARM_LINK3:
+          Value: false
+        control/RARM_LINK4:
+          Value: false
+        control/RARM_LINK5:
+          Value: false
+        control/RARM_LINK6:
+          Value: false
+        control/RARM_LINK7:
+          Value: true
+        control/RHAND_LINK0:
+          Value: false
+        control/RHAND_LINK1:
+          Value: false
+        control/RHAND_LINK2:
+          Value: false
+        control/RHAND_LINK3:
+          Value: false
+        control/RHAND_LINK4:
+          Value: false
+        control/RLEG_LINK0:
+          Value: false
+        control/RLEG_LINK1:
+          Value: false
+        control/RLEG_LINK2:
+          Value: false
+        control/RLEG_LINK3:
+          Value: false
+        control/RLEG_LINK4:
+          Value: false
+        control/RLEG_LINK5:
+          Value: false
+        control/RightFootForceSensor:
+          Value: false
+        control/RightHandForceSensor:
+          Value: false
+        control/env_1/base_link:
+          Value: false
+        control/env_1/ground:
+          Value: false
+        control/env_1/surfaces/AllGround:
+          Value: false
+        control/env_2/base_link:
+          Value: false
+        control/env_2/surfaces/handoverPipe:
+          Value: false
+        control/surfaces/Back:
+          Value: false
+        control/surfaces/Butthock:
+          Value: false
+        control/surfaces/CenterRightHand:
+          Value: false
+        control/surfaces/InteriorRightHand:
+          Value: false
+        control/surfaces/InteriorRightHandInverted:
+          Value: false
+        control/surfaces/InternLeftHand:
+          Value: false
+        control/surfaces/LExternSole:
+          Value: false
+        control/surfaces/LFrontSole:
+          Value: false
+        control/surfaces/LFullSole:
+          Value: false
+        control/surfaces/LInternSole:
+          Value: false
+        control/surfaces/LeftFingers:
+          Value: false
+        control/surfaces/LeftGripper:
+          Value: false
+        control/surfaces/LeftGripperReverse:
+          Value: false
+        control/surfaces/LeftThight:
+          Value: false
+        control/surfaces/LowerBack:
+          Value: false
+        control/surfaces/RExternSole:
+          Value: false
+        control/surfaces/RFrontSole:
+          Value: false
+        control/surfaces/RFullSole:
+          Value: false
+        control/surfaces/RInternSole:
+          Value: false
+        control/surfaces/RightFingers:
+          Value: false
+        control/surfaces/RightForearmSupport:
+          Value: false
+        control/surfaces/RightGripper:
+          Value: false
+        control/surfaces/RightGripperReverse:
+          Value: false
+        control/surfaces/RightThight:
+          Value: false
+        control/surfaces/RightWristSupport:
+          Value: false
+        control/surfaces/XYLargeButthock:
+          Value: false
+        control/surfaces/YLargeButthock:
+          Value: false
+        real/Accelerometer:
+          Value: false
+        real/BODY:
+          Value: false
+        real/CHEST_LINK0:
+          Value: false
+        real/CHEST_LINK1:
+          Value: false
+        real/HEAD_LINK0:
+          Value: false
+        real/HEAD_LINK1:
+          Value: false
+        real/LARM_LINK0:
+          Value: false
+        real/LARM_LINK1:
+          Value: false
+        real/LARM_LINK2:
+          Value: false
+        real/LARM_LINK3:
+          Value: false
+        real/LARM_LINK4:
+          Value: false
+        real/LARM_LINK5:
+          Value: false
+        real/LARM_LINK6:
+          Value: false
+        real/LARM_LINK7:
+          Value: false
+        real/LHAND_LINK0:
+          Value: false
+        real/LHAND_LINK1:
+          Value: false
+        real/LHAND_LINK2:
+          Value: false
+        real/LHAND_LINK3:
+          Value: false
+        real/LHAND_LINK4:
+          Value: false
+        real/LLEG_LINK0:
+          Value: false
+        real/LLEG_LINK1:
+          Value: false
+        real/LLEG_LINK2:
+          Value: false
+        real/LLEG_LINK3:
+          Value: false
+        real/LLEG_LINK4:
+          Value: false
+        real/LLEG_LINK5:
+          Value: false
+        real/LeftFootForceSensor:
+          Value: false
+        real/LeftHandForceSensor:
+          Value: false
+        real/RARM_LINK0:
+          Value: false
+        real/RARM_LINK1:
+          Value: false
+        real/RARM_LINK2:
+          Value: false
+        real/RARM_LINK3:
+          Value: false
+        real/RARM_LINK4:
+          Value: false
+        real/RARM_LINK5:
+          Value: false
+        real/RARM_LINK6:
+          Value: false
+        real/RARM_LINK7:
+          Value: false
+        real/RHAND_LINK0:
+          Value: false
+        real/RHAND_LINK1:
+          Value: false
+        real/RHAND_LINK2:
+          Value: false
+        real/RHAND_LINK3:
+          Value: false
+        real/RHAND_LINK4:
+          Value: false
+        real/RLEG_LINK0:
+          Value: false
+        real/RLEG_LINK1:
+          Value: false
+        real/RLEG_LINK2:
+          Value: false
+        real/RLEG_LINK3:
+          Value: false
+        real/RLEG_LINK4:
+          Value: false
+        real/RLEG_LINK5:
+          Value: false
+        real/RightFootForceSensor:
+          Value: false
+        real/RightHandForceSensor:
+          Value: false
+        real/surfaces/Back:
+          Value: false
+        real/surfaces/Butthock:
+          Value: false
+        real/surfaces/CenterRightHand:
+          Value: false
+        real/surfaces/InteriorRightHand:
+          Value: false
+        real/surfaces/InteriorRightHandInverted:
+          Value: false
+        real/surfaces/InternLeftHand:
+          Value: false
+        real/surfaces/LExternSole:
+          Value: false
+        real/surfaces/LFrontSole:
+          Value: false
+        real/surfaces/LFullSole:
+          Value: false
+        real/surfaces/LInternSole:
+          Value: false
+        real/surfaces/LeftFingers:
+          Value: false
+        real/surfaces/LeftGripper:
+          Value: false
+        real/surfaces/LeftGripperReverse:
+          Value: false
+        real/surfaces/LeftThight:
+          Value: false
+        real/surfaces/LowerBack:
+          Value: false
+        real/surfaces/RExternSole:
+          Value: false
+        real/surfaces/RFrontSole:
+          Value: false
+        real/surfaces/RFullSole:
+          Value: false
+        real/surfaces/RInternSole:
+          Value: false
+        real/surfaces/RightFingers:
+          Value: false
+        real/surfaces/RightForearmSupport:
+          Value: false
+        real/surfaces/RightGripper:
+          Value: false
+        real/surfaces/RightGripperReverse:
+          Value: false
+        real/surfaces/RightThight:
+          Value: false
+        real/surfaces/RightWristSupport:
+          Value: false
+        real/surfaces/XYLargeButthock:
+          Value: false
+        real/surfaces/YLargeButthock:
+          Value: false
+        robot_map:
+          Value: false
+      Marker Scale: 1
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+      Tree:
+        robot_map:
+          control/BODY:
+            control/CHEST_LINK0:
+              control/CHEST_LINK1:
+                control/Accelerometer:
+                  {}
+                control/HEAD_LINK0:
+                  control/HEAD_LINK1:
+                    {}
+                control/LARM_LINK0:
+                  control/LARM_LINK1:
+                    control/LARM_LINK2:
+                      control/LARM_LINK3:
+                        control/LARM_LINK4:
+                          control/LARM_LINK5:
+                            control/LARM_LINK6:
+                              control/LARM_LINK7:
+                                control/LHAND_LINK0:
+                                  {}
+                              control/LHAND_LINK1:
+                                {}
+                              control/LHAND_LINK2:
+                                control/LHAND_LINK3:
+                                  {}
+                              control/LHAND_LINK4:
+                                {}
+                              control/LeftHandForceSensor:
+                                {}
+                              control/surfaces/InternLeftHand:
+                                {}
+                              control/surfaces/LeftFingers:
+                                {}
+                              control/surfaces/LeftGripper:
+                                {}
+                              control/surfaces/LeftGripperReverse:
+                                {}
+                control/RARM_LINK0:
+                  control/RARM_LINK1:
+                    control/RARM_LINK2:
+                      control/RARM_LINK3:
+                        control/RARM_LINK4:
+                          control/RARM_LINK5:
+                            control/RARM_LINK6:
+                              control/RARM_LINK7:
+                                control/RHAND_LINK0:
+                                  {}
+                              control/RHAND_LINK1:
+                                {}
+                              control/RHAND_LINK2:
+                                control/RHAND_LINK3:
+                                  {}
+                              control/RHAND_LINK4:
+                                {}
+                              control/RightHandForceSensor:
+                                {}
+                              control/surfaces/CenterRightHand:
+                                {}
+                              control/surfaces/InteriorRightHand:
+                                {}
+                              control/surfaces/InteriorRightHandInverted:
+                                {}
+                              control/surfaces/RightFingers:
+                                {}
+                              control/surfaces/RightGripper:
+                                {}
+                              control/surfaces/RightGripperReverse:
+                                {}
+                          control/surfaces/RightWristSupport:
+                            {}
+                        control/surfaces/RightForearmSupport:
+                          {}
+                control/surfaces/Back:
+                  {}
+                control/surfaces/LowerBack:
+                  {}
+            control/LLEG_LINK0:
+              control/LLEG_LINK1:
+                control/LLEG_LINK2:
+                  control/LLEG_LINK3:
+                    control/LLEG_LINK4:
+                      control/LLEG_LINK5:
+                        control/LeftFootForceSensor:
+                          {}
+                        control/surfaces/LExternSole:
+                          {}
+                        control/surfaces/LFrontSole:
+                          {}
+                        control/surfaces/LFullSole:
+                          {}
+                        control/surfaces/LInternSole:
+                          {}
+                  control/surfaces/LeftThight:
+                    {}
+            control/RLEG_LINK0:
+              control/RLEG_LINK1:
+                control/RLEG_LINK2:
+                  control/RLEG_LINK3:
+                    control/RLEG_LINK4:
+                      control/RLEG_LINK5:
+                        control/RightFootForceSensor:
+                          {}
+                        control/surfaces/RExternSole:
+                          {}
+                        control/surfaces/RFrontSole:
+                          {}
+                        control/surfaces/RFullSole:
+                          {}
+                        control/surfaces/RInternSole:
+                          {}
+                  control/surfaces/RightThight:
+                    {}
+            control/surfaces/Butthock:
+              {}
+            control/surfaces/XYLargeButthock:
+              {}
+            control/surfaces/YLargeButthock:
+              {}
+          control/env_1/base_link:
+            control/env_1/ground:
+              control/env_1/surfaces/AllGround:
+                {}
+          control/env_2/base_link:
+            control/env_2/surfaces/handoverPipe:
+              {}
+          real/BODY:
+            real/CHEST_LINK0:
+              real/CHEST_LINK1:
+                real/Accelerometer:
+                  {}
+                real/HEAD_LINK0:
+                  real/HEAD_LINK1:
+                    {}
+                real/LARM_LINK0:
+                  real/LARM_LINK1:
+                    real/LARM_LINK2:
+                      real/LARM_LINK3:
+                        real/LARM_LINK4:
+                          real/LARM_LINK5:
+                            real/LARM_LINK6:
+                              real/LARM_LINK7:
+                                real/LHAND_LINK0:
+                                  {}
+                              real/LHAND_LINK1:
+                                {}
+                              real/LHAND_LINK2:
+                                real/LHAND_LINK3:
+                                  {}
+                              real/LHAND_LINK4:
+                                {}
+                              real/LeftHandForceSensor:
+                                {}
+                              real/surfaces/InternLeftHand:
+                                {}
+                              real/surfaces/LeftFingers:
+                                {}
+                              real/surfaces/LeftGripper:
+                                {}
+                              real/surfaces/LeftGripperReverse:
+                                {}
+                real/RARM_LINK0:
+                  real/RARM_LINK1:
+                    real/RARM_LINK2:
+                      real/RARM_LINK3:
+                        real/RARM_LINK4:
+                          real/RARM_LINK5:
+                            real/RARM_LINK6:
+                              real/RARM_LINK7:
+                                real/RHAND_LINK0:
+                                  {}
+                              real/RHAND_LINK1:
+                                {}
+                              real/RHAND_LINK2:
+                                real/RHAND_LINK3:
+                                  {}
+                              real/RHAND_LINK4:
+                                {}
+                              real/RightHandForceSensor:
+                                {}
+                              real/surfaces/CenterRightHand:
+                                {}
+                              real/surfaces/InteriorRightHand:
+                                {}
+                              real/surfaces/InteriorRightHandInverted:
+                                {}
+                              real/surfaces/RightFingers:
+                                {}
+                              real/surfaces/RightGripper:
+                                {}
+                              real/surfaces/RightGripperReverse:
+                                {}
+                          real/surfaces/RightWristSupport:
+                            {}
+                        real/surfaces/RightForearmSupport:
+                          {}
+                real/surfaces/Back:
+                  {}
+                real/surfaces/LowerBack:
+                  {}
+            real/LLEG_LINK0:
+              real/LLEG_LINK1:
+                real/LLEG_LINK2:
+                  real/LLEG_LINK3:
+                    real/LLEG_LINK4:
+                      real/LLEG_LINK5:
+                        real/LeftFootForceSensor:
+                          {}
+                        real/surfaces/LExternSole:
+                          {}
+                        real/surfaces/LFrontSole:
+                          {}
+                        real/surfaces/LFullSole:
+                          {}
+                        real/surfaces/LInternSole:
+                          {}
+                  real/surfaces/LeftThight:
+                    {}
+            real/RLEG_LINK0:
+              real/RLEG_LINK1:
+                real/RLEG_LINK2:
+                  real/RLEG_LINK3:
+                    real/RLEG_LINK4:
+                      real/RLEG_LINK5:
+                        real/RightFootForceSensor:
+                          {}
+                        real/surfaces/RExternSole:
+                          {}
+                        real/surfaces/RFrontSole:
+                          {}
+                        real/surfaces/RFullSole:
+                          {}
+                        real/surfaces/RInternSole:
+                          {}
+                  real/surfaces/RightThight:
+                    {}
+            real/surfaces/Butthock:
+              {}
+            real/surfaces/XYLargeButthock:
+              {}
+            real/surfaces/YLargeButthock:
+              {}
+      Update Interval: 0
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Default Light: true
+    Fixed Frame: robot_map
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+    - Class: rviz/MoveCamera
+    - Class: rviz/Select
+    - Class: rviz/FocusCamera
+    - Class: rviz/Measure
+    - Class: rviz/SetInitialPose
+      Topic: /initialpose
+    - Class: rviz/SetGoal
+      Topic: /move_base_simple/goal
+    - Class: rviz/PublishPoint
+      Single click: true
+      Topic: /clicked_point
+  Value: true
+  Views:
+    Current:
+      Class: rviz/Orbit
+      Distance: 1.5230031
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.0599999987
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: 0.171857253
+        Y: 0.396386504
+        Z: 1.06684899
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.0500000007
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.00999999978
+      Pitch: 0.338377476
+      Target Frame: <Fixed Frame>
+      Value: Orbit (rviz)
+      Yaw: 1.39169502
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: true
+  Height: 427
+  Hide Left Dock: true
+  Hide Right Dock: true
+  QMainWindow State: 000000ff00000000fd00000004000000000000016a00000165fc0200000009fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000006100fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000004bb000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb00000018006d0063005f007200740063002000700061006e0065006c0000000028000002840000003e00fffffffb000000100044006900730070006c006100790073000000002800000165000000d700fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261000000010000013b0000027dfc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a0056006900650077007300000000500000027d000000ad00fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e100000197000000030000030000000058fc0100000002fb0000000800540069006d00650000000000000003000000030000fffffffb0000000800540069006d00650100000000000004500000000000000000000003340000016500000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Selection:
+    collapsed: false
+  Time:
+    collapsed: false
+  Tool Properties:
+    collapsed: false
+  Views:
+    collapsed: true
+  Width: 820
+  X: 2018
+  Y: 67
+  mc_rtc panel:
+    collapsed: false

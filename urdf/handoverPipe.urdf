@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+
+<robot name="handoverPipe">
+	<link name="base_link" />
+	<joint name="pipe" type="fixed">
+		<parent link="base_link" />
+		<child link="pipe"/>
+		<origin rpy="-1.57 0 0" xyz="0 0 0" />
+	</joint>
+
+
+	<link name="pipe">
+	    <inertial>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<mass value="0.925"/>
+			<inertia ixx="0.063" ixy="0" ixz="0"
+			iyy="0.063" iyz="0"
+			izz="0.00057" />
+		</inertial>
+		<visual>
+			<material name="black">
+				<color rgba="0 0 0 0.8"/>
+			</material>
+			<geometry>
+				<cylinder length=".9" radius="0.035"/>
+			</geometry>	
+			<origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
+		</visual>
+	</link>
+
+
+
+<link name="zero_link">
+		<visual>
+			<material name="red">
+				<color rgba="1 0 0 1"/>
+			</material>
+			<geometry>
+				<sphere radius=".01"/>
+			</geometry>	
+			<origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
+		</visual>
+	</link>
+
+	<joint name="base_to_zero_link" type="fixed">
+		<parent link="base_link"/>
+		<child link="zero_link"/>
+		<origin xyz="0 0 0.037"/>
+	</joint>
+
+
+	<link name="right_link">
+		<visual>
+			<material name="red">
+				<color rgba="1 0 0 1"/>
+			</material>
+			<geometry>
+				<sphere radius=".01"/>
+			</geometry>	
+			<origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
+		</visual>
+	</link>
+
+	<joint name="base_to_right_link" type="fixed">
+		<parent link="base_link"/>
+		<child link="right_link"/>
+		<origin xyz="0 0.3 0.037"/>
+	</joint>
+
+
+
+	<link name="left_link">
+		<visual>
+			<material name="red">
+				<color rgba="1 0 0 1"/>
+			</material>
+			<geometry>
+				<sphere radius=".01"/>
+			</geometry>
+			<origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
+		</visual>
+	</link>
+
+	<joint name="base_to_left_link" type="fixed">
+		<parent link="base_link"/>
+		<child link="left_link"/>
+		<origin xyz="0 -0.3 0.037"/>
+	</joint>
+
+</robot>
+

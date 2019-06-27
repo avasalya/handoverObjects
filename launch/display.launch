@@ -1,0 +1,36 @@
+<launch>
+
+	<group ns="ns0">
+
+	    <param name="handover" value="ns0"></param>
+		<arg name="hrp2_model" value="$(find hrp2_drc_description)/urdf/hrp2drc.urdf"/>
+		<param name="robot_description" textfile="$(arg hrp2_model)" />
+		<param name="rsdf_dir" value="$(find hrp2_drc_description)/rsdf/hrp2_drc" />
+
+		<node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"/>
+		<node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />
+
+	</group>
+
+
+	<group ns="ns1">
+
+	    <param name="handover" value="ns1"></param>
+
+		<arg name="handover_model" default="$(find handover_urdf)/urdf/handoverPipe.urdf"/>
+		<param name="robot_handover_description" textfile="$(arg handover_model)" />
+		<param name="rsdf_dir" value="$(find handover_urdf)/rsdf/handoverPipe" />
+
+	</group>	
+
+
+		<arg name="gui" default="true" />
+		<param name="use_gui" value="$(arg gui)"/>
+
+
+		<!-- <arg name="rvizconfig" default="$(find handover_urdf)/rviz/urdf.rviz" />  -->
+		<arg name="rvizconfig" default="$(find handover_urdf)/rviz/handoverPipe.rviz" /> 
+		<node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rvizconfig)" required="true" />
+
+</launch>
+

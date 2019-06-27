@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+
+<robot name="handoverBottle">
+  <link name="base_link" />
+  <joint name="bottle" type="fixed">
+    <parent link="base_link" />
+    <child link="bottle"/>
+    <origin rpy="0 0 0" xyz="0 0 0" />
+  </joint>
+
+
+  <!-- cylinder -->
+  <link name="bottle">
+      <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.925"/>
+      <inertia ixx="0.063" ixy="0" ixz="0"
+      iyy="0.063" iyz="0"
+      izz="0.00057" />
+    </inertial>
+    <visual>
+      <material name="green">
+        <color rgba="1 0.6 0.13 1"/>
+      </material>
+      <geometry>
+        <!-- <square length=".2" width="0.3"/> -->
+        <!-- <box size="0.09 0.09 0.2"/> -->
+        <cylinder length=".2" radius="0.04"/>
+      </geometry> 
+      <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
+    </visual>
+  </link>
+
+  
+  <!-- sphere -->
+  <link name="left_link">
+    <visual>
+      <material name="blue">
+        <color rgba="1 0.6 0.13 1"/>
+      </material>
+      <geometry>
+        <!-- <cylinder length=".1" radius="0.06"/> -->
+         <sphere radius="0.042"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0.0 0.0 .1"/>
+    </visual>
+  </link>
+
+  <joint name="base_to_left_link" type="fixed">
+    <parent link="bottle"/>
+    <child link="left_link"/>
+    <origin xyz="0.0 0.0 0.0"/>
+  </joint>
+
+
+ <!-- marker -->
+  <link name="right_link">
+    <visual>
+      <material name="red">
+        <color rgba="0.835 0.823 0.823 1"/>
+      </material>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry> 
+      <origin rpy="0 0 0" xyz="0.0 0.0 0.15"/>
+    </visual>
+  </link>
+
+  <joint name="base_to_right_link" type="fixed">
+    <parent link="left_link"/>
+    <child link="right_link"/>
+    <origin xyz="0 0.0 0.0"/>
+  </joint>
+
+</robot>
+
